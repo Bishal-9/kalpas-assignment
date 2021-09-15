@@ -1,0 +1,33 @@
+.listView {
+    display: flex;
+}
+
+.listView__text {
+    background: white;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 20px lightgrey;
+}
+
+.listView__text h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.listView .MuiSvgIcon-root {
+    position: relative;
+    top: 30px;
+    margin: 0 20px;
+    padding: 5px;
+    color: orangered;
+    background: white;
+    box-shadow: 0 20px 20px 20px lightgrey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.listView .MuiSvgIcon-root:hover {
+    cursor: pointer;
+}

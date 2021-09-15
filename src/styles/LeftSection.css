@@ -1,0 +1,172 @@
+.leftSection {
+    padding: 6rem 3rem;
+    display: flex;
+}
+
+.leftSection__details {
+    flex: 0.45;
+}
+
+/* User Details Section */
+.leftSection__user {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 20px -5px lightgrey;
+}
+
+.leftSection__user img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Toggle Section */
+.leftSection__toggle {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px -5px lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.leftSection__icons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.leftSection__icons:hover {
+    cursor: pointer;
+}
+
+.leftSection__icon {
+    background: lightgrey;
+    color: grey;
+    padding: 0 20px;
+}
+
+.leftSection__icon:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.leftSection__icon:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* For selected Buttons */
+.selected {
+    background: #94e9c6 !important;
+    color: black !important;
+}
+
+.leftSection__toggle .MuiSvgIcon-root {
+    font-size: 70px !important;
+}
+
+/* Feedback Choice */
+.leftSection__feedbackChoice {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px -5px lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.leftSection__feedbackChoice button {
+    border: none;
+    padding: 1rem 3rem;
+    background: #94e9c6;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.leftSection__feedbackChoice button:hover {
+    cursor: pointer;
+}
+
+.leftSection__feedbackChoice .disabled {
+    background: #e7a0a4 !important;
+}
+
+/* Feedback Form */
+.leftSection__feedbackForm {
+    flex: 0.55;
+    padding: 0 3rem;
+}
+
+.leftSection__feedbackForm__thanks {
+    margin-bottom: 3rem;
+}
+
+.leftSection__feedbackForm__thanks h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.leftSection__feedbackForm__inputGroups {
+    padding: 10px;
+}
+
+.leftSection__feedbackForm__input {
+    margin-top: 10px;
+}
+
+.leftSection__feedbackForm__input input, .leftSection__feedbackForm__input textarea {
+    border: none;
+    padding: 0.5rem;
+    width: 50%;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    box-shadow: 0 10px 20px -5px lightgrey;
+}
+
+.leftSection__feedbackForm__input textarea {
+    width: 100%;
+}
+
+.leftSection__feedbackForm__input input[type=tel]:nth-child(1) {
+    width: 10%;
+    margin-right: 10px;
+}
+
+.leftSection__feedbackForm__input input[type=tel]:nth-child(2) {
+    width: calc(40% - 10px);
+}
+
+.leftSection__feedbackForm button {
+    padding: 1rem 3rem;
+    background: #94e9c6;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
+
+.leftSection__feedbackForm button:hover {
+    cursor: pointer;
+}
+
+.leftSection__feedbackForm span {
+    color: orangered;
+}

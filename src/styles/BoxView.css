@@ -1,0 +1,23 @@
+.boxView {
+    width: 15rem;
+    height: 20rem;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 20px lightgrey;
+}
+
+.boxView .MuiSvgIcon-root {
+    position: relative;
+    left: 85%;
+    color: orangered;
+}
+
+.boxView .MuiSvgIcon-root:hover {
+    cursor: pointer;
+}
+
+.boxView h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

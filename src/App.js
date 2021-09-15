@@ -1,15 +1,29 @@
+import { useEffect, useState } from 'react'
 import './App.css';
+import LeftSection from './components/LeftSection';
+import RightSection from './components/RightSection';
 
 function App() {
+
+    const feedbackState = useState(false)
+    const viewState = useState('list')
+
+    useEffect(() => {
+        console.log(viewState[0])
+    }, [viewState])
+
     return (
         <div className="app">
-            <h1>Kalpas - Assignment</h1>
 
             {/* Left Section */}
-            <div className="app__leftSection"></div>
+            <div className="app__leftSection">
+                <LeftSection feedbackState={feedbackState} viewState={viewState} />
+            </div>
 
             {/* Right Section */}
-            <div className="app__rightSection"></div>
+            <div className="app__rightSection">
+                <RightSection viewState={viewState} />
+            </div>
         </div>
     );
 }
