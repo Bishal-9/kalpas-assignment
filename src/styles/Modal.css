@@ -1,0 +1,23 @@
+.modal {
+    position: absolute;
+    display: block;
+    top: 30vh;
+    left: 2vw;
+    padding: 15px;
+    z-index: 5 !important;
+    width: 30vw;
+    height: 20vh;
+    background: white;
+    border-radius: 20px;
+    border: 5px solid grey;
+}
+
+.modal h2 {
+    margin-bottom: 10px;
+}
+
+.modal .MuiSvgIcon-root {
+    top: 10px;
+    left: 80%;
+    box-shadow: 0 5px 10px 5px lightgrey;
+}

@@ -10,6 +10,10 @@
     box-shadow: 0 20px 20px 20px lightgrey;
 }
 
+.listView__text:hover {
+    cursor: pointer;
+}
+
 .listView__text h5 {
     font-size: 18px;
     margin-bottom: 10px;
